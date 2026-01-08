@@ -7,8 +7,8 @@ public class WeakHashMapDemo {
 	
 	public static void main(String[] args) {
 		
-//		WeakHashMap<StringBuffer, Integer> hm = new WeakHashMap<>();
-		HashMap<StringBuffer, Integer> hm = new HashMap<>();
+		WeakHashMap<StringBuffer, Integer> hm = new WeakHashMap<>();
+//		HashMap<StringBuffer, Integer> hm = new HashMap<>();
 		
 		StringBuffer k1 = new StringBuffer("AAA");
 		StringBuffer k2 = new StringBuffer("BBB");
