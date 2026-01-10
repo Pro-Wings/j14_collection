@@ -19,16 +19,16 @@ public class WithEnumDemo {
 		switch(size)
 		{
 		
-		case Size.SMALL:
+		case SMALL:
 			result = 28;
 			break;
-		case Size.MEDIUM:
+		case MEDIUM:
 			result = 32;
 			break;
-		case Size.LARGE:
+		case LARGE:
 			result = 42;
 			break;
-		case Size.EXTRALARGE:
+		case EXTRALARGE:
 			result = 44;
 			break;
 		default :
