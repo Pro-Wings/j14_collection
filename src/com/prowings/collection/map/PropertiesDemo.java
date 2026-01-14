@@ -14,6 +14,7 @@ public class PropertiesDemo {
 		props.setProperty("username", "ProWings");
 		props.setProperty("password", "P@ssw0rd");
 		props.setProperty("dburl", "www.db.com");
+		
 	
 		
 		System.out.println(props);

@@ -1,5 +1,7 @@
 package com.prowings.collection.map;
 
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentHashMapDemo {
@@ -17,6 +19,17 @@ public class ConcurrentHashMapDemo {
 		
 		
 		System.out.println(map);
+		
+		Set<String> keys = map.keySet();
+		
+		Iterator<String> itr = keys.iterator();
+		
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+			map.put("zzz", 1111);
+		}
+
 	}
 
 }

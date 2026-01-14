@@ -18,15 +18,15 @@ public class HashTableDemo2 {
 
 		System.out.println(ht);
 		
-//		Set<String> keySet = ht.keySet();
-//		
-//		Iterator<String> itr = keySet.iterator();
-//		
-//		while(itr.hasNext())
-//		{
-//			System.out.println(itr.next());
-//			ht.remove("cccc");
-//		}
+		Set<String> keySet = ht.keySet();
+		
+		Iterator<String> itr = keySet.iterator();
+		
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+			ht.remove("cccc");
+		}
 
 		
 		Enumeration<String> enumeration = ht.keys();
